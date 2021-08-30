@@ -25,6 +25,8 @@ public final class EnvUtils {
         return Env.LOCAL;
       case "TOOLS":
         return Env.TOOLS;
+      case "QA":
+        return Env.QA;
       default:
         return Env.UNKNOWN;
     }
